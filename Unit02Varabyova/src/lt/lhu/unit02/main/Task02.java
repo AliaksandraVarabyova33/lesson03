@@ -17,7 +17,7 @@ public class Task02 {
 		double result;
 		
 		if (a <= 0) {
-			System.out.println("Triangle side should be positive value: ");
+			System.out.println("Triangle side should be positive value");
 			result = Double.NaN;
 		} else
 			result = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
@@ -30,7 +30,7 @@ public class Task02 {
 		double result;
 		
 		if (a <= 0) {
-			System.out.println("Сторона треугольника должна быть положительным числом");
+			System.out.println("Triangle side should be positive value");
 			result = Double.NaN;
 		} else
 			result = (a * b) / 2;
