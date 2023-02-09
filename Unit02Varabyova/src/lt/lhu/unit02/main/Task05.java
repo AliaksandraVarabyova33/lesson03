@@ -14,7 +14,7 @@ public class Task05 {
 			System.out.println("Denominator is 0");
 			result = Double.NaN;
 		} else
-			result = (b + Math.sqrt(Math.pow(b, 2) + 4 * a * c)) / 2 * a - Math.pow(a, 3) * c + b;
+			result = (b + Math.sqrt(Math.pow(b, 2) + 4 * a * c)) / (2 * a) - Math.pow(a, 3) * c + b;
 		System.out.println("The result is " + result);
 	}
 
