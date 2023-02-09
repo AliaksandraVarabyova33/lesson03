@@ -15,7 +15,7 @@ public class Task06 {
 			System.out.println("Denominator is 0");
 			result = Double.NaN;
 		} else
-			result = a / c + b / d + (a * b - c) / c * d;
+			result = (a / c) + (b / d) + ((a * b - c) / (c * d));
 		System.out.println("The result is " + result);
 	}
 
